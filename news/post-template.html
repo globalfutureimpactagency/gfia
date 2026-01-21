@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GFIA News Article</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <img src="../logo.png" class="logo-img" />
+    </div>
+    <nav class="nav">
+      <a href="../index.html">Home</a>
+      <a href="../news.html">News</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container article-container">
+
+    <!-- Banner Image -->
+    <img src="../news1.jpg" class="article-image" />
+
+    <!-- Heading -->
+    <h1 class="article-title">Your Article Title</h1>
+
+    <!-- Subheading -->
+    <h3 class="article-subtitle">Your Subheading Goes Here</h3>
+
+    <!-- Auto Date -->
+    <p class="article-date" id="article-date"></p>
+
+    <!-- Main Content -->
+    <div class="article-body">
+      <p>Your full article content goes here...</p>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Global Future Impact Agency (GFIA). All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+// Auto date
+document.getElementById("article-date").textContent =
+  "Published on: " + new Date().toLocaleString();
+</script>
+
+<script src="../script.js"></script>
+</body>
+</html>
