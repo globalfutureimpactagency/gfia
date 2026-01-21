@@ -1,3 +1,10 @@
+{
+  "title": "Climate Change Is Intensifying Disasters",
+  "subtitle": "GFIA analysis on global mortality trends and climate-driven hazards.",
+  "date": "2026-01-21",
+  "image": "climatechange.webp",
+  "url": "news/climate-change-disasters.html"
+}
 // Set current year in footer
 const yearSpan = document.getElementById("year");
 if (yearSpan) {
@@ -24,10 +31,3 @@ fetch('posts.json')
       container.appendChild(card);
     });
   });
-{
-  "title": "Climate Change Is Intensifying Disasters",
-  "subtitle": "GFIA analysis on global mortality trends and climate-driven hazards.",
-  "date": "2026-01-21",
-  "image": "climatechange.webp",
-  "url": "news/climate-change-disasters.html"
-}
