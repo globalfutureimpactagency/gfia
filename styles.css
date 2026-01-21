@@ -76,29 +76,12 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
 }
 
 .logo-img {
   width: 40px;
   height: 40px;
   object-fit: contain;
-}
-
-.logo-text-wrap {
-  display: flex;
-  flex-direction: column;
-}
-
-.logo-title {
-  font-weight: 600;
-  font-size: 0.98rem;
-  color: #f9fafb;
-}
-
-.logo-subtitle {
-  font-size: 0.78rem;
-  color: var(--muted);
 }
 
 .nav {
